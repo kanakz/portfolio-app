@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400&family=Inter:wght@500;700&family=Kanit:wght@300;400;500;600&display=swap');
+
+body{
+   background: rgba(19, 1, 37, 1); 
+   color: rgba(255, 255, 255, 0.2);
+   
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+ul[class],
+ol[class],
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+  margin: 0;
+}
+
+h1{
+    font-family: 'Courier New';
+    font-weight: 700;
+    font-size: 60px;
+    color: 
+    rgba(255, 255, 255, 1);
+    width: 1280px;
+    margin-bottom: 32px;
+}
+
+h2{
+    font-family: 'Courier New';
+    font-weight: 700;
+    font-size: 60px;
+    color: rgba(255, 255, 255, 1);;
+}
+
+section{
+    padding-left: 80px;
+    padding-right: 80px;
+}
+p{
+    font-family: 'Kanit';
+    color:  rgba(255, 255, 255, 1);
+}
+a{
+    text-decoration: none;
+    color:rgba(255, 255, 255, 1);
+    font-family: 'Inter';
+    font-style: medium;
+    font-weight: 500;
+    font-size: 16px;
+    margin-left: 32px;
+}
+
+.header{
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nameMe{
+    font-family: 'Courier';
+    font-style: bold;
+    font-weight: 700;
+    font-size: 32px;
+    color:rgba(255, 255, 255, 1);
+}
+
+.line{
+    width: 100%;
+    border-bottom: 1px solid rgb(108, 108, 108);
+}
+
+.promo-paragrah{
+    color: 
+    rgba(255, 255, 255, 1);
+    font-family: 'Kanit';
+    font-weight: 300;
+    font-size: 20px;
+}
+
+.promo{
+    padding-top: 160px;
+    padding-bottom: 160px;
+}
+
+.btn_promo{
+    margin-top: 40px;
+    width: 200px;
+    height: 56px;
+    background: #FD5A14;
+    color:rgba(255, 255, 255, 1);
+    font-family: 'Inter';
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.about{
+    padding-top: 160px;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 160px;
+}
+
+.about_p{
+    font-family: 'Kanit';
+    font-weight: 300;
+    font-size: 20px;
+    margin-top: 32px;
+   
+}
+
+.round-checkbox {
+    position: relative;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+  }
+  
+  .round-checkbox input[type="checkbox"] {
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    cursor: pointer;
+  }
+  
+  .checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 20px;
+    width: 20px;
+    background-color: #999;
+    border: 2px solid #999;
+    border-radius: 50%;
+  }
+  
+  .round-checkbox input[type="checkbox"]:checked ~ .checkmark {
+    background-color: #fff;
+  }
+
+  .lorem{
+    display: flex;
+    margin-top: 40px;
+  }
+
+  label{
+    margin-right: 12px;
+  }
+
+  .lorem_margin{
+    margin-left: 74px;
+  }
+
+  .about-info{
+    display: flex;
+  }
+
+  .img_about{
+    width: 380px;
+    height: 400px;
+  }
